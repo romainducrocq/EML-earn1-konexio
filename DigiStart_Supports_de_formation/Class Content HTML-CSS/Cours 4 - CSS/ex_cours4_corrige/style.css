@@ -1,0 +1,57 @@
+/**
+ * BASE
+ */
+
+body {
+  margin: 0;
+}
+
+ h3 {
+  text-align: center;
+}
+
+section {
+  padding: 30px;
+}
+
+/**
+* NAVIGATION
+*/
+nav {
+  height: 70px;
+}
+nav h2 {
+  padding: 20px;
+  margin: 0;
+  float: left;
+}
+
+
+nav ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+}
+nav li {
+    float: left;
+    margin-left: 15px;
+}
+
+nav a {
+    color: #000;  
+  }
+
+/**
+SELECTEUR CLASS
+*/
+
+.image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+
+#ville, #espace {
+  background-color:#0475BA;
+}
