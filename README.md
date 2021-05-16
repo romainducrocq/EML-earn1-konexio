@@ -1,3 +1,24 @@
+### COURS
+
+HTML-CSS: 
+- Session 1: https://docs.google.com/presentation/d/1OokHLME6Eg71ML5kG6fZDOzZW19I66jrDhp53HhurDs/edit#slide=id.g55dcca4650_0_35
+- Session 2: https://docs.google.com/presentation/d/1OinkBalgUzUqBBnfSwUyvVWwmhcpKQxugBMiGdXfH-s/edit#slide=id.g5592e9d2d7_0_0
+- Session 3: https://docs.google.com/presentation/d/1dg38FJXCl1ziTAqSmZfFF7qrLgn93YQkcbgoRoBHC80/edit#slide=id.p1
+- Session 4: https://docs.google.com/presentation/d/1U7hmxebBXF3DkJXfit3UqnfocIko1gHpNl71y2rof7o/edit#slide=id.p1
+- Sessions 5 à 8: https://docs.google.com/presentation/d/1qZY9n5dSmCpGD7kzBfyC5ivwUBytEM_THnaPF8QZzP8/edit#slide=id.p1
+
+JS:
+- Session 1: https://docs.google.com/presentation/d/1L8-pXAcH1KNS6C4ZYMJ_nEaI4_WHsAfFIVyChynmiiQ/edit#slide=id.g3fefcec2db_0_0
+- Session 2: https://docs.google.com/presentation/d/186HrycIb3d5n4YhghtT-DGW4dVPIFALjmTYevwp4xag/edit#slide=id.g3fefcec2db_0_0
+- Session 3: https://docs.google.com/presentation/d/1i3ZnJOIlNy_TXE84twwtku4l4ADp5VU0cezL5TqANZs/edit#slide=id.g3fefcec2db_0_0
+- Session 4: https://docs.google.com/presentation/d/1FToOfr0RX5_4Lf7ItfJ6-6mBb51qHn3X0Mi2uxg8F4o/edit#slide=id.g3fefcec2db_0_0
+- Session 5: https://docs.google.com/presentation/d/1x2XmbhvMwl5xGLH329G0eiBdjKAo85ssXZKMNIm9lOk/edit#slide=id.g3fefcec2db_0_0
+- Session 6: https://docs.google.com/presentation/d/17YxGnNZnvar846mq0-ce1QX5SNTD-0LzZmQI4jZeBeI/edit#slide=id.g3fefcec2db_0_0
+
+****
+
+### EXERCICES
+
 HTML-CSS: 
 - Session 1: https://romainducrocq.github.io/konexio/digistart-html-css/session1/index.html
 - Session 2: https://romainducrocq.github.io/konexio/digistart-html-css/session2/index.html
