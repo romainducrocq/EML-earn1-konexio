@@ -9,12 +9,16 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // - age : Votre age
 // - city: Votre ville
 
-
+var student = {
+  name: "romain",
+  age: 24,
+  city: "paris"
+};
 
 // 2. Afficher dans la console l'objet student.
 
 
-
+console.log(student);
 
 // ------ TODO 2 ------
 var user = {
@@ -24,19 +28,19 @@ var user = {
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
 
-
+user["city"] = "paris";
 
 // 2. Afficher dans la console l'âge de John.
 
-
+console.log(user["age"]);
 
 // 3. Remplacer la valeur de "city" avec "Nice".
 
-
+user["city"] = "nice";
 
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
 
-
+console.log(Object.keys(user));
 
 
 // ------ TODO 3 ------
@@ -44,13 +48,69 @@ var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
 
+console.log(users[1]);
 
+/* VERSIONS AVAVNCEES
+
+// version 1
+for(var i = 0; i < users.length; i++){
+  if(users[i]["name"] === "Emma"){
+    console.log(users[i]);
+  }
+}
+
+// version 2
+for(const u of users){
+  if(u["name"] === "Emma"){
+    console.log(u);
+  }
+}
+
+// version 3
+users.forEach(u => {
+  if(u["name"] === "Emma"){
+    console.log(u);
+  }
+});
+
+*/
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
 
+console.log(users[0]["name"]);
+
+/* VERSIONS AVANCEES
+
+// version 1
+for(var i = 0; i < users.length; i++){
+  for(var j = 0; j < Object.keys(users[i]).length; j++){
+    if(users[i][Object.keys(users[i])[j]] === "John"){
+      console.log(users[i]);
+    }
+  }
+}
+
+// version 2
+for(const u of users){
+  for(const k of Object.keys(u)){
+    if(u[k] === "John"){
+      console.log(u);
+    }
+  }
+}
+
+// version 3
+users.forEach(u => {
+  Object.keys(u).forEach(k => {
+    if(u[k] === "John"){
+      console.log(u);
+    }
+  });
+});
 
 
+*/
 
 // ------ TODO 4 ------
 var car = {
@@ -60,19 +120,21 @@ var car = {
 
 // 1. Ajouter une méthode "drive" à l'objet car qui affiche dans la console "Vroom !".
 
-
+car.drive = function(){
+  console.log("Vroom !");
+}
 
 // 2. Appeller la méthode drive à partir de l'objet car.
 
 
-
+car.drive();
 
 // ------ TODO 5 ------
 var library = [
   {
     author: 'Bill Gates',
     title: 'The Road Ahead',
-    read: true
+    read: false
   },
   {
     author: 'Walter Isaacson',
@@ -87,13 +149,40 @@ var library = [
 
 // 1. Changer la propriété read du livre titré 'Steve Jobs' à true.
 
+library[0]["read"] = true;
 
+/* VERSION AVANCEE
+
+for(var book = 0; book < library.length; book++){
+  if(library[book]["author"] === "Bill Gates"){
+    library[book]["read"] = true;
+    break;
+  }
+}
+
+*/
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
 
-
+library.push({
+  author: 'Leigh Bardugo',
+  title: 'Shadow and Bone',
+  read: false
+})
 
 // 3. Supprimer le livre de Suzanne Collins du tableau.
 
+library.splice(2, 1);
 
+/* VERSION AVANCEE
 
+for(var book = library.length - 1; book >= 0; book--){
+  if(library[book]["author"] === "Suzanne Collins"){
+    library.splice(book, 1);
+    break;
+  }
+}
+
+*/
+
+console.log(library);
